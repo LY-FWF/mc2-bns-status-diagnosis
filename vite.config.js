@@ -7,7 +7,7 @@ export default defineConfig({
 	plugins: [vue(), UnoCSS()],
 	base: './',
 	build: {
-		outDir: 'dist/bns-status-diagnosis',
+		outDir: 'dist/mc2-bns-status-diagnosis',
 		rollupOptions: {
 			output: {
 				entryFileNames: '[name].js',
